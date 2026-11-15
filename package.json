@@ -6,25 +6,35 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:browser": "node scripts/visual-qa.mjs",
+    "test:performance": "node scripts/performance-qa.mjs",
+    "check:database": "node --env-file=.env.local scripts/check-database.mjs",
+    "assets:generate": "node scripts/generate-displays.mjs && node scripts/generate-product-displays.mjs"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
     "framer-motion": "^12.34.3",
+    "geist": "^1.9.2",
     "lucide-react": "^0.575.0",
-    "mongoose": "^9.2.1",
-    "next": "16.1.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "zod": "^4.3.6"
+    "mongoose": "^9.12.1",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/postcss": "^4.3.5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.187.0",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
-    "tailwindcss": "^4",
+    "eslint-config-next": "^16.4.6",
+    "tailwindcss": "^4.3.5",
     "typescript": "^5"
   }
 }

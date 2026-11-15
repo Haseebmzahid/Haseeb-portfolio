@@ -1,0 +1,8 @@
+export const biography = [
+  "I build systems that don't just work — they hold up under load, scale across environments, and survive production.",
+  "I'm a Software Engineering student with a focus on backend architecture, AI integration, and infrastructure. My foundation runs deep: Operating Systems, Database internals, distributed systems design — the kind of fundamentals that make the difference between software that ships and software that lasts.",
+  "My most technically demanding project is an AI-powered real estate estimation engine — a system that ingests property data, applies machine learning inference, and serves predictions at scale. Building it forced me to think beyond feature delivery: I had to reason about data pipelines, model latency, caching strategies, and the boundary between ML infrastructure and backend services. I didn't just connect an API — I architected the layer between raw data and actionable output.",
+  "I also designed and shipped ROYAL ENCLAVE, a full-stack real estate bidding platform. That project touched everything from database schema design and transactional integrity to deployment pipelines and real-time interaction patterns. It's where I learned that production-readiness isn't a final step — it's a design constraint from the beginning.",
+  "My current focus: backend engineering, DevOps automation, and AI systems. I'm drawn to problems where performance constraints are real, where infrastructure decisions have visible consequences, and where clean architecture isn't optional.",
+  "I'm actively seeking internships, remote engineering roles, and freelance projects where I can contribute at the systems level — and keep building things that matter in production, not just in development.",
+];
